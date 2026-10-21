@@ -1,7 +1,6 @@
 aid: justdisco-com
 name: Disco
-description: 'Disco is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by 500-global) and added to the network as a stub for full-pipeline profiling.'
+description: 'Disco is a technology company focused on providing innovative solutions for event management and audience engagement. The platform enables organizers to create interactive experiences, leveraging real-time data and analytics to enhance participant interaction. Backed by prominent investors, Disco aims to transform how events are planned, executed, and measured, offering tools for ticketing, live polling, and immersive digital experiences.'
 url: https://raw.githubusercontent.com/api-evangelist/justdisco-com/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:vc-portfolio
@@ -12,6 +11,10 @@ created: '2026-10-21'
 modified: '2026-10-21'
 tags:
 - Company
+- EventTech
+- AudienceEngagement
+- RealTimeAnalytics
+- Ticketing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +24,6 @@ maintainers:
 x-backed-by:
 - 500-global
 common:
-- type: Website
-  url: https://justdisco.com
+- type: DomainSecurity
+  url: security/justdisco-com-domain-security.yml
+
