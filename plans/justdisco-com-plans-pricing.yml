@@ -1,0 +1,40 @@
+generated: '2026-10-21'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.disco.co/pricing
+sources:
+- https://www.disco.co/pricing
+- https://docs.disco.co/billing.md
+name: Disco pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Organization
+  price_text: $399/mo
+  price: 399
+  description: Launch a fully branded learning academy for training your members, employees, customers, or partners.
+  features:
+  - Up to 500 members included
+  - Branded learning academy on your own domain
+  - Unlimited learning products
+  - Run cohorts, sell courses, and grow a learning community
+  - AI Agents for admins and members
+  - Live onboarding workshop + weekly office hours
+  - Nonprofit pricing available
+  limits:
+  - name: video storage
+    limit_text: 100 hrs/month
+  - name: video streaming
+    limit_text: 400 hrs/month
+- name: Enterprise
+  price_text: Custom Pricing
+  description: Scale your training business and join 100’s of training businesses leveraging the Disco platform.
+  features:
+  - All features in Organization
+  - Scale to 100k+ members
+  - Branded mobile apps for iOS and Android on select plans
+  - API & Webhooks
+  - SAML SSO
+  - Concierge onboarding and dedicated Customer Success Manager
+  - Sandbox Academy
+docs: https://www.disco.co/pricing

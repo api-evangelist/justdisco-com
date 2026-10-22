@@ -1,0 +1,124 @@
+generated: '2026-10-21'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 8
+  own: 7
+  other_domain: 1
+  platform: 0
+  roles:
+  - api
+  - docs
+  - legal
+  - other
+  - support
+  - website
+hosts:
+- host: api.disco.co
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: disco.co
+  role: api
+  relation: own
+- host: api.production.services.disco.co
+  found_by:
+  - pointer
+  - docs-index
+  - spec-found
+  types:
+  - APIReference
+  serves:
+  - docs
+  - spec
+  registrable_domain: disco.co
+  role: docs
+  relation: own
+- host: app.disco.co
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: disco.co
+  role: other
+  relation: own
+- host: docs.disco.co
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - docs-index
+  - spec-found
+  - contract-discovery
+  - well-known
+  types:
+  - ChangeLog
+  - GettingStarted
+  - Documentation
+  serves:
+  - docs
+  - spec
+  registrable_domain: disco.co
+  role: docs
+  relation: own
+- host: mintlify.com
+  found_by:
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: mintlify.com
+  role: other
+  relation: other-domain
+- host: privacy.disco.co
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - TermsOfService
+  - PrivacyPolicy
+  serves: []
+  registrable_domain: disco.co
+  role: legal
+  relation: own
+- host: support.disco.co
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - well-known
+  types:
+  - Support
+  serves: []
+  registrable_domain: disco.co
+  role: support
+  relation: own
+- host: www.disco.co
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Compliance
+  - Security
+  - Pricing
+  - Blog
+  - Website
+  serves:
+  - docs
+  - cdn
+  vendor: cloudflare
+  registrable_domain: disco.co
+  role: website
+  relation: own

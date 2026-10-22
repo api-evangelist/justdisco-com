@@ -1,29 +1,99 @@
 aid: justdisco-com
+
 name: Disco
-description: 'Disco is a technology company focused on providing innovative solutions for event management and audience engagement. The platform enables organizers to create interactive experiences, leveraging real-time data and analytics to enhance participant interaction. Backed by prominent investors, Disco aims to transform how events are planned, executed, and measured, offering tools for ticketing, live polling, and immersive digital experiences.'
+
+image: https://cdn.prod.website-files.com/60ffdd9e3c66d7e7307eb9e5/6973a96a25fc03586026ee0b_OpenGraph_Social.png
+
+description: Disco is a technology company focused on providing innovative solutions for event management and audience engagement. The platform
+  enables organizers to create interactive experiences, leveraging real-time data and analytics to enhance participant interaction. Backed by
+  prominent investors, Disco aims to transform how events are planned, executed, and measured, offering tools for ticketing, live polling, and
+  immersive digital experiences.
+
 url: https://raw.githubusercontent.com/api-evangelist/justdisco-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
 - EventTech
 - AudienceEngagement
 - RealTimeAnalytics
 - Ticketing
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- 500-global
+
 common:
+- type: Plans
+  url: plans/justdisco-com-plans-pricing.yml
+- type: ChangeLog
+  url: changelog/justdisco-com-changelog.yml
+- type: Compliance
+  url: https://www.disco.co/security
+- type: LLMsTxt
+  url: llms/justdisco-com-llms.txt
+- type: AgentCard
+  url: a2a/justdisco-com-a2a.yml
+- type: WellKnown
+  url: well-known/justdisco-com-well-known.yml
+- type: Hosts
+  url: hosts/justdisco-com-hosts.yml
+- type: Vendors
+  url: vendors/justdisco-com-vendors.yml
+- type: TermsOfService
+  url: https://privacy.disco.co/terms-of-service
+- type: Support
+  url: https://support.disco.co/hc/en-us/requests/new
+- type: Security
+  url: https://www.disco.co/security
+- type: PrivacyPolicy
+  url: https://privacy.disco.co/privacy-policy
+- type: Pricing
+  url: https://www.disco.co/pricing
+- type: ChangeLog
+  url: https://docs.disco.co/changelog
+- type: Blog
+  url: https://www.disco.co/blog
+- type: GettingStarted
+  url: https://docs.disco.co/getting-started
+- type: Documentation
+  url: https://docs.disco.co/
+- type: APIReference
+  url: https://api.production.services.disco.co/v1/docs
+- type: TrustCenter
+  url: security/justdisco-com-trust-center.yml
 - type: DomainSecurity
   url: security/justdisco-com-domain-security.yml
+- type: Website
+  url: https://www.disco.co
+- type: Website
+  url: https://www.disco.co
 
+apis:
+- name: Disco API
+  description: Disco provides event management and audience engagement APIs as described on their developer pages.
+  humanURL: https://www.disco.co
+  aid: justdisco-com:disco-api
+
+x-backed-by:
+- 500-global
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 20
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

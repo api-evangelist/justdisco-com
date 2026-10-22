@@ -1,0 +1,60 @@
+generated: '2026-10-21'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.disco.co/changelog.md
+sources:
+- https://docs.disco.co/changelog.md
+entries:
+- breaking: false
+  highlights:
+  - Knowledge Check is now available to every Academy.
+  - Add one to the end of a module and members get a live, adaptive AI conversation in place of a traditional quiz, with questions grounded in
+    that module's lessons, PDFs, and video and audio transcripts.
+  - When the session ends, each member gets a personalized evaluation of their strengths, gaps, and lessons worth revisiting.
+  - Admins see completion rates, comprehension scores, and who could use follow‑up in the Knowledge Check Insights report.
+  date: '2026-10-13'
+- breaking: false
+  highlights:
+  - The Disco MCP Connector is in public beta and available to Owners and Admins on all plans.
+  - Connect Claude, ChatGPT, and manage your Academy through natural‑language conversation.
+  - 'This release covers Member management end to end: create, find, update, deactivate, reactivate, and remove Members, and generate password‑less
+    login links.'
+  - Owners and Admins connect from Admin Area → Settings → MCP Connector, where each person authorizes their own Disco account and can review
+    or revoke connected clients at any time.
+  date: '2026-10-06'
+- breaking: false
+  highlights:
+  - We are proud to announce that we have completed a SOC 2 Type II audit.
+  - 'Group Insights: Member reports in Insights > Groups can now be sorted by Overall Completion.'
+  - 'Event feedback: Feedback rating stars now use a higher‑contrast color, so members can see their selection more easily.'
+  - 'API: The Disco MCP now supports content.get, which returns a content item''s type and where it''s used.'
+  date: '2026-10-01'
+- breaking: false
+  highlights:
+  - AI Audio Narration turns text‑based lesson content into natural‑sounding audio so people can listen on the web or the Disco mobile app.
+  - Publish a Program or add content to a collection and Disco generates narration automatically.
+  - Members get a Play Audio button in the content footer, with pause, volume, and speed controls.
+  - Edit a lesson later and the narration regenerates within about an hour of your last save.
+  date: '2026-09-25'
+- breaking: false
+  highlights:
+  - Post Engagement Report lets teams measure qualified post engagement across Feed apps.
+  - View Post Views and Unique Member Post Views in Academy Insights.
+  - Subscribe to the new engagement.user_viewed_post webhook and access post_viewed activity through the engagement API.
+  - Custom Date Range Filters allow selecting 7 days, 30 days, or a custom start and end date for reporting.
+  date: '2026-09-14'
+- breaking: false
+  highlights:
+  - The improved registration flow is now enabled for every Academy, giving Members a faster registration experience with fewer screens and less
+    friction.
+  - No changes to your Academy settings are required.
+  date: '2026-09-01'
+- breaking: false
+  highlights:
+  - Admins can now understand Academy activity across all programs in one place, helping them spot trends and focus support where it is needed
+    most.
+  - Aggregate Program Insights provides a table report of all programs with their status, type, tags, access, enrollment, and progress.
+  date: '2026-08-28'
+current_version: '2026-10-13'
+note: Versioning scheme is date‑based (YYYY‑MM‑DD).
+docs: https://docs.disco.co/changelog.md
